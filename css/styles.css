@@ -1,0 +1,85 @@
+
+body {
+  /* font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, "Helvetica Neue", sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  /* font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, sans-serif; */
+  /* width: 40%; */
+
+  font-family: monospace;
+
+  /* font-family: serif; */
+
+  margin-top: 0;
+  /* margin: 0 auto 0 auto; */
+  /* margin: 0 auto; */
+}
+
+span {
+  background-color: aqua;
+  /* background-color: #db6400; */
+  /* background-color: #5eaaa8; */
+}
+
+/* p {
+  width: 100px;
+  display: block;
+  display: inline;
+  display: inline-block;
+  display: none;
+  visibility: hidden;
+} */
+
+.top-container {
+  background-color: #f8f1f1;
+  position: relative;
+  padding-top: 100px;
+  /* padding: 20px 20px 20px 20px; */
+}
+
+.middle-container {
+  background-color: #a3d2ca;
+  height: 300px;
+  width: 100%;
+  /* width: 200px; */
+}
+
+.bottom-container {
+  background-color: #5eaaa8;
+  height: 300px;
+  width: 100%;
+  /* width: 200px; */
+}
+
+.footer-container {
+  background-color: #db6400;
+  height: 100px;
+  width: 100%;
+  /* width: 200px; */
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.span1 {
+  background-color: #5eaaa8;
+}
+
+.span2 {
+  background-color: #db6400;
+}
