@@ -5,30 +5,38 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   text-align: center;
+  /* font-size: 2em; */
 }
 
 h1 {
   /* font-family: Arial, Helvetica, sans-serif;
   font-family: Verdana, sans-serif; */
+  /* font-family: serif; */
+  font-family: monospace;
+  /* line-height: 2; */
+  color: black;
+
   /* width: 40%; */
 
-  font-family: monospace;
+  /* font-size: 60px; */
+  /* font-size: 450%; */
+  /*  16px = 100% = 1em (M) */
+  font-size: 5rem;
 
-  /* font-family: serif; */
-
-  margin-top: 0;
+  margin-top: 30px;
   /* margin: 0 auto 0 auto; */
   /* margin: 0 auto; */
 }
 
 h2 {
   font-family: monospace;
+  font-size: 2.5rem;
+  /* color: #db6400; */
+  color: black;
 }
 
-span {
-  background-color: aqua;
-  /* background-color: #db6400; */
-  /* background-color: #5eaaa8; */
+h3 {
+  font-weight: normal;
 }
 
 /* p {
@@ -39,6 +47,15 @@ span {
   display: none;
   visibility: hidden;
 } */
+
+.header {
+  background-color: #db6400;
+  /* position: fixed; */
+  /* height: 50px; */
+  width: 100%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
 
 .top-container {
   background-color: #f8f1f1;
@@ -53,26 +70,33 @@ span {
   width: 100%;
   margin: 0;
   /* width: 200px; */
+  /* padding-top: 20px; */
+  padding-bottom: 20px;
 }
 
 .bottom-container {
   background-color: #5eaaa8;
-  height: 300px;
+  /* height: 300px; */
   width: 100%;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
   /* width: 200px; */
 }
 
 .footer-container {
   background-color: #db6400;
-  height: 100px;
+  /* height: 100px; */
   width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
   /* width: 200px; */
 }
 
 .bottom-cloud {
   position: absolute;
   left: 300px;
-  bottom: 300px;
+  bottom: 280px;
 }
 
 .top-cloud {
@@ -85,19 +109,61 @@ span {
   position: relative;
   bottom: 0;
 }
-
+/*
 .span1 {
   background-color: #5eaaa8;
+  text-decoration: underline;
 }
 
 .span2 {
   background-color: #db6400;
-}
+  text-decoration: underline;
+} */
 
 .computer-fig {
+  float: left;
   width: 25%;
+  margin-right: 30px;
 }
 
 .interest-fig {
+  float: right;
+  margin-left: 30px;
   width: 25%;
 }
+
+.education-fig {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.my-skills {
+  text-align: justify;
+  /* margin-left: 20px; */
+}
+
+.header-text {
+  margin: 0;
+  text-align: center;
+  /* padding-right: 6px; */
+}
+
+.intro {
+  font-weight: normal;
+}
+
+.skill-row {
+  width: 60%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+/* .skill-info {
+  clear: left;
+}
+
+.interest-info {
+  clear: right;
+} */
